@@ -1,0 +1,22 @@
+.countryDialCodeSelector{
+    position: relative;
+
+}
+.countryDialCodeSelector select{
+    display: none;
+}
+#country-code-selector-field {
+    border-radius: 0;
+    border-right: 0;
+    border-left: 0;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    border-top: 0;
+}
+#country-code-selector-field:focus {
+     border-color: #ccc;
+    box-shadow: none;
+}
+.dial-code-selector:focus{
+    outline: 0 !important;
+}
